@@ -1,10 +1,14 @@
-import NavMenu from "../../Menu/NavMenu";
+import Menu from "../../Menu/Menu";
+import '../Home/home.css'
 
 const Home = () => {
     return (
         <div>
-             <NavMenu />
-            <h1>Home</h1>
+             <Menu />
+            <h1 className="title">Home</h1>
+            <section className="produtos">
+                <p>Aqui vai ser renderizado os produtos</p>
+            </section>
         </div>
     )
 }
