@@ -1,0 +1,13 @@
+.container-products img {
+    width: 100px;
+}
+
+.container-products h2 {
+    font-size: 12pt;
+}
+
+.container-products p {
+    font-size: 10pt;
+    text-align: justify;
+    padding-right: 20rem;
+}
