@@ -38,7 +38,7 @@ const Login = () => {
                 </form>
                 <button className="singin" onClick={() => {
                    validaForm()
-                }}>Sing In</button>
+                }}><Link to="/login">Sing In</Link></button>
                 <button className="singin"><Link to="/register" ><img src={Register} alt="" />Register</Link>
 </button>
              <span>

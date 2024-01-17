@@ -4,9 +4,7 @@ function App() {
 
   return (
       <main>
-        <body>
           <Routes />
-        </body>
       </main>
   )
 }
